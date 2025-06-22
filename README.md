@@ -52,7 +52,7 @@ npm run dev
 yarn dev
 ```
 
-The app is available at [job-board-eight-amber.vercel.app).
+The app is available at [HireMitra](https://job-board-eight-amber.vercel.app).
 
 
 ## Project Structure
