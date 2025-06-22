@@ -1,25 +1,32 @@
-# Job Board App
+# 💼 Job Board App
 
-A modern, professional job board web application built with **React**, **TypeScript**, and **Tailwind CSS**. The UI is themed with Starbucks green for a clean, distinctive look.
+A modern, fully responsive job board web application built with **React**, **TypeScript**, and **Tailwind CSS**. Designed with a clean green-themed UI, this platform offers a professional experience for job seekers and employers alike.
 
-## Features
+## 🚀 Features
 
-- 🏢 **Browse Jobs:** View a curated list of top jobs with company logos, job type tags, and location pills.
-- 🔍 **Advanced Filters:** Filter jobs by type, location, and more.
-- 📝 **Post a Job:** Employers can post new job listings easily.
-- 👤 **Authentication:** Login and Sign Up pages with secure, user-friendly forms.
-- 📄 **Job Details:** View detailed job descriptions and apply directly.
-- 📱 **Responsive Design:** Looks great on desktop and mobile.
+- 🏢 **Browse Jobs** – View job listings with company logos, job type tags, and locations.
+- 🔍 **Advanced Filters** – Filter jobs by type, location, and more.
+- 📝 **Post a Job** – Employers can easily submit job postings.
+- 👤 **Authentication** – Secure Login and Sign-Up with form validation.
+- 📄 **Job Details** – Access full job descriptions and apply directly.
+- 📱 **Responsive Design** – Optimized for desktop and mobile devices.
 
-## UI Highlights
 
-- Starbucks green as the primary color, with a green gradient header.
-- High-contrast, accessible buttons and tags.
-- Professional, clean layout with modern rounded corners.
-- Distinctive job type tags (Remote, Part-time, Contract, Full-time).
+## 🎨 UI Design Highlights
 
-## Getting Started
+- Green-themed UI with a soft gradient header.
+- Modern layout with rounded corners and shadowed cards.
+- Accessible, high-contrast buttons and tags.
+- Distinctive job type tags: Remote, Part-time, Contract, Full-time.
 
+
+## 🧰 Tech Stack
+
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Tooling:** Vite, ESLint, Prettier
+- **Authentication:** Placeholder forms 
+
+## 🛠 Getting Started
 ### Prerequisites
 - Node.js (v16+ recommended)
 - npm or yarn
@@ -45,30 +52,24 @@ npm run dev
 yarn dev
 ```
 
-The app will be available at [http://localhost:5173](http://localhost:5173) (default Vite port).
+The app is available at [hiremitra-five.vercel.app).
 
-## Customization
-
-- **Colors:** Edit `tailwind.config.js` to adjust the Starbucks green palette or gradients.
-- **Job Data:** Modify `src/data/mockJobs.ts` to change the job listings.
-- **Logos:** Add or update company logos in `public/logos/` or `src/assets/logos/`.
 
 ## Project Structure
 
 ```
-AJ/
-  src/
-    components/    # React components
-    data/          # Mock job data and logos
-    types/         # TypeScript types
-    utils/         # Utility functions
-    index.css      # Global styles
-    main.tsx       # App entry point
-  public/          # Static assets
-  tailwind.config.js
-  vite.config.ts
+src/
+├── components/        # React components
+├── data/              # Mock job data and logos
+├── types/             # TypeScript types
+├── index.css          # Global styles
+├── utils/             # Utility functions
+└── main.tsx           # App entry point
+public/                # Static assets
+tailwind.config.js
+vite.config.ts
 ```
 
-## License
+## 📝 License
+Licensed under the MIT License.
 
-MIT 
